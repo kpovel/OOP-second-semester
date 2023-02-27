@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tenth-LW-first-task", "10th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tenth-LW-second-task", "10th-laboratory-work\tenth-LW-second-task\tenth-LW-second-task.csproj", "{695F0A30-3D92-4E1E-A981-69991E40E440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eleventh-laboratory-work", "11th-laboratory-work\eleventh-laboratory-work\eleventh-laboratory-work.csproj", "{CE9B8B92-94C4-442E-A47F-833F86D3E92F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{695F0A30-3D92-4E1E-A981-69991E40E440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{695F0A30-3D92-4E1E-A981-69991E40E440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{695F0A30-3D92-4E1E-A981-69991E40E440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9B8B92-94C4-442E-A47F-833F86D3E92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9B8B92-94C4-442E-A47F-833F86D3E92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9B8B92-94C4-442E-A47F-833F86D3E92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9B8B92-94C4-442E-A47F-833F86D3E92F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
