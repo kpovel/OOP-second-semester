@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tenth-LW-second-task", "10t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eleventh-laboratory-work", "11th-laboratory-work\eleventh-laboratory-work\eleventh-laboratory-work.csproj", "{CE9B8B92-94C4-442E-A47F-833F86D3E92F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twelfth-laboratory-work", "12th-laboratory-work\twelfth-laboratory-work\twelfth-laboratory-work.csproj", "{9250F5FB-5025-4199-8087-EAE55BEE4047}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{CE9B8B92-94C4-442E-A47F-833F86D3E92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE9B8B92-94C4-442E-A47F-833F86D3E92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE9B8B92-94C4-442E-A47F-833F86D3E92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9250F5FB-5025-4199-8087-EAE55BEE4047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9250F5FB-5025-4199-8087-EAE55BEE4047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9250F5FB-5025-4199-8087-EAE55BEE4047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9250F5FB-5025-4199-8087-EAE55BEE4047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
