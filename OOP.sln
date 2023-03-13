@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eleventh-laboratory-work", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twelfth-laboratory-work", "12th-laboratory-work\twelfth-laboratory-work\twelfth-laboratory-work.csproj", "{9250F5FB-5025-4199-8087-EAE55BEE4047}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thirteenth-laboratory-work", "13th-laboratory-work\thirteenth-laboratory-work\thirteenth-laboratory-work.csproj", "{D599748F-F5D7-47BC-A6D6-FCB7BD188A84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{9250F5FB-5025-4199-8087-EAE55BEE4047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9250F5FB-5025-4199-8087-EAE55BEE4047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9250F5FB-5025-4199-8087-EAE55BEE4047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D599748F-F5D7-47BC-A6D6-FCB7BD188A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D599748F-F5D7-47BC-A6D6-FCB7BD188A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D599748F-F5D7-47BC-A6D6-FCB7BD188A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D599748F-F5D7-47BC-A6D6-FCB7BD188A84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
