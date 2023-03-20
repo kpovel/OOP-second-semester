@@ -8,7 +8,7 @@ internal interface IWigwamSize
     double GetArea();
 }
 
-internal class Wigwam : IWigwamSize
+internal class Wigwam : IWigwamSize, IComparable
 {
     public double Height { get; set; }
     public double LowerHeight { get; set; }
@@ -34,6 +34,16 @@ internal class Wigwam : IWigwamSize
     {
         return $"Wigwam: Height = {Height}, LowerHeight = {LowerHeight}, Width = {Width}, Area = {GetArea()}";
     }
+    
+    public int CompareTo(object? obj)
+    {
+        if (obj is Wigwam wigwam)
+        {
+            return GetArea().CompareTo(wigwam.GetArea());
+        }
+
+        throw new ArgumentException("Object is not a Wigwam");
+    }
 }
 
 internal abstract class Program
@@ -55,7 +65,8 @@ internal abstract class Program
             Console.WriteLine(wigwam);
         }
 
-        Array.Sort(wigwams, (x, y) => y.GetArea().CompareTo(x.GetArea()));
+        Array.Sort(wigwams);
+        Array.Reverse(wigwams);
 
         Console.WriteLine("\nSorted array of wigwams:");
         foreach (var wigwam in wigwams)
